@@ -1,0 +1,22 @@
+{
+  "name": "signup_singin",
+  "version": "1.0.0",
+  "description": "signup & signin using node.js & mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nur Alam",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.4",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "validator": "^11.1.0"
+  }
+}
