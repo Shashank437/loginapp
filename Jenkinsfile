@@ -7,6 +7,8 @@ pipeline {
           image 'node:16-alpine'
         }
        }
+      steps {
+      }
     }
     stage('Docker Build') {
       steps {
