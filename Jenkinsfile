@@ -8,6 +8,7 @@ pipeline {
         }
        }
       steps {
+        sh 'echo "ready_to_build"'
       }
     }
     stage('Docker Build') {
